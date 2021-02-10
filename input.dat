@@ -1,0 +1,11 @@
+1 1
+1 1
+1 0 0 0							
+2 1 0 0
+3 0 1 0
+4 1 1 0									   !Nodal coordinates
+1 1 2 4 3							   !Element node connectivity	
+10000,0.333,2.6				  		 	!E, Nu, Mass(solid)
+1.0,0.3,1E-3,2E9								! mass(water), porosity, conductivity, Bulkmod	
+0.0,-10.0									   !Gravity load
+500000,0.00001					  		   !No. of steps, time increment in each step

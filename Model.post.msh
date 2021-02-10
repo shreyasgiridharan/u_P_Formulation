@@ -1,0 +1,10 @@
+ MESH dimension 2 ElemType Quadrilateral Nnode 4
+ Coordinates
+      1   0.000000E+000   0.000000E+000
+      2   0.100000E+001   0.000000E+000
+      3   0.000000E+000   0.100000E+001
+      4   0.100000E+001   0.100000E+001
+ End Coordinates
+ Elements
+      1      1      2      4      3
+ End Elements

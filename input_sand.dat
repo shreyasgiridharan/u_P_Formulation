@@ -1,0 +1,14 @@
+1 1
+1 1
+1 0 0 0							
+2 1 0 0
+3 0 1 0
+4 1 1 0									   !Nodal coordinates
+1 1 2 4 3								   !Element node connectivity	
+1000,0.333,1.0,0,30,0,0					   !E, Nu, Mass, BulkMod Water, Phi, Psi, Cohesion
+999,999,999								   !3 Dummy values 
+30,1.6,5.8E6,0.28,0.53,0.84,1.0			   !Phic, Pt, hs, n, e_d0, e_c0 e_i0
+0.13,1.0,10,2,5E-5,0.3,1,0.65			   !alpha, beta, m_r, m_t, R_max, beta_r, chi, e_0
+0.0E7									   !bulkmod of water
+0.0,0.0									   !Gravity load
+100000,0.0001					  		   !No. of steps, time increment in each step
